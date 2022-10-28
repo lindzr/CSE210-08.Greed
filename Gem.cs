@@ -1,0 +1,1 @@
+// Creates gem object with color and shapes

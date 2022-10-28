@@ -1,0 +1,1 @@
+// tracks player, gem, and rock locations and notifies scoreboard when there is contact

@@ -1,0 +1,1 @@
+// controls random generation of location for gems and rocks. 

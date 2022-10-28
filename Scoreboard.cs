@@ -1,0 +1,1 @@
+// keeps track of score. Display in upper left of window: rock -1, gem +1
