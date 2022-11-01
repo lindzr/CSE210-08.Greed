@@ -10,15 +10,15 @@ namespace HelloWorld
             var ScreenHeight = 1262;
             var ScreenWidth = 1800;
 
-            Raylib.InitWindow(ScreenHeight, ScreenWidth);
+            Raylib.InitWindow(ScreenHeight, ScreenWidth, "Greed");
             Raylib.SetTargetFPS(60);
 
             while (!Raylib.WindowShouldClose())
             {
                 Raylib.BeginDrawing();
-                Raylib.ClearBackground(Color.WHITE);
+                Raylib.ClearBackground(Color.BLACK);
 
-                Raylib.DrawText("Move the ball with the arrow keys!", 12, 12, 20, Color.BLACK);
+                
 
                 Raylib.EndDrawing();
             }
