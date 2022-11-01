@@ -2,5 +2,10 @@
 
 class Gem : Shape
 {
-    f
+    
+}
+
+class Gem : Color
+{
+
 }
