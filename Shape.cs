@@ -9,8 +9,9 @@ using static Raylib_cs.Color;
 // Random randInt = new Random();
 // int randIntNew = randInt.Next(0, 1800);
 
-class Shape 
+class Shape
 {
+    
     Shape circle = DrawCircle($"{randValue}", -5, 0, WHITE);
     Shape rectangle = DrawRectangle($"{randValue}", -5, 6, 4, GREEN); 
 }
