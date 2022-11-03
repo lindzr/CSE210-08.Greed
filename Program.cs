@@ -16,7 +16,7 @@ namespace HelloWorld
             while (!Raylib.WindowShouldClose())
             {
 
-                //some code from example program from brother Moseley 
+                //some code from example program from brother Moseley that I edited for our program 
                 var whichType = Random.Next(2);
 
                 var randomY = Random.Next(-2, 2);
