@@ -8,7 +8,7 @@ class Shape
 {
     //Brooklyn can't figure this out. but I was trying to figure out a way to make it work 
     // without inheriting from the Location class. To be more simple. 
-    Random random = new Random();
-    Shape circle = DrawCircle($"{Random.Next(0, 1800)}", -5, 0, WHITE);
+    Random random = new Random;
+    Shape circle = DrawCircle($"{Random(0, 1800)}", -5, 0, WHITE);
     Shape rectangle = DrawRectangle($"{randValue}", -5, 6, 4, GREEN); 
 }
