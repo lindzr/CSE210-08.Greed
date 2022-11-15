@@ -17,10 +17,12 @@ namespace HelloWorld
             {
 
                 //some code from example program from brother Moseley that I edited for our program 
-                var whichType = Random.Next(2);
+                Random random = new Random();
 
-                var randomY = Random.Next(-2, 2);
-                var randomX = Random.Next(-2, 2);
+                var whichType = random.Next(2);
+
+                var randomY = random.Next(-2, 2);
+                var randomX = random.Next(-2, 2);
 
                 var position = new Vector2(randomX, 0);
 
